@@ -46,16 +46,16 @@
                     const row = document.createElement('tr');
                     
                     row.innerHTML = `
-                        <td class="image-cell">
+                        <td class="image-cell" data-label="Preview">
                             <img class="preview-img" 
                                  src="${asset.github.crop}" 
                                  alt="${asset.description}" 
                                  loading="lazy">
                         </td>
-                        <td><a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener"><span class="nasa-id">${asset.nasa_id}</span></a></td>
-                        <td><div class="description">${asset.description}</div></td>
-                        <td><div class="author">${asset.author}</div></td>
-                        <td>
+                        <td data-label="NASA ID"><a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener"><span class="nasa-id">${asset.nasa_id}</span></a></td>
+                        <td data-label="Description"><div class="description">${asset.description}</div></td>
+                        <td data-label="Artist"><div class="author">${asset.author}</div></td>
+                        <td data-label="Downloads">
                             <div class="links">
                                 <a href="${asset.github.original}" class="btn btn-original" download="${asset.nasa_id}_original.jpg">Original</a>
                                 <a href="${asset.github.crop}" class="btn btn-crop" download="${asset.nasa_id}_cropped.jpg">Crop</a>
