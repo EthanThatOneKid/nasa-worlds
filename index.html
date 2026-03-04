@@ -17,6 +17,14 @@
             <p class="subtitle">Exploring the retro-futurist vision of space colonization and planetary exploration through historical NASA mission art.</p>
         </header>
 
+        <div class="search-container">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input type="text" id="search-input" class="search-input" placeholder="Search mission art by description, artist, or NASA ID...">
+            <div id="search-stats" class="search-stats">Loading collection...</div>
+        </div>
+
         <div class="table-wrapper">
             <table id="asset-table">
                 <thead>
@@ -35,38 +43,110 @@
         </div>
     </div>
 
-    <script>
+    <script type="importmap">
+        {
+            "imports": {
+                "@orama/orama": "https://esm.sh/@orama/orama@latest"
+            }
+        }
+    </script>
+
+    <script type="module">
+        import { create, insertMultiple, search } from '@orama/orama'
+
+        let db;
+        let allAssets = [];
+
+        async function initSearch(data) {
+            db = await create({
+                schema: {
+                    nasa_id: 'string',
+                    description: 'string',
+                    author: 'string',
+                }
+            });
+
+            await insertMultiple(db, data.map(asset => ({
+                nasa_id: asset.nasa_id,
+                description: asset.description,
+                author: asset.author,
+                // Store the original index to map back to full data
+                id: asset.nasa_id 
+            })));
+
+            const searchInput = document.getElementById('search-input');
+            const searchStats = document.getElementById('search-stats');
+            
+            searchStats.textContent = `Showing all ${data.length} artworks`;
+
+            searchInput.addEventListener('input', async (e) => {
+                const term = e.target.value.trim();
+                
+                if (!term) {
+                    renderTable(allAssets);
+                    searchStats.textContent = `Showing all ${allAssets.length} artworks`;
+                    return;
+                }
+
+                const results = await search(db, {
+                    term: term,
+                    properties: ['nasa_id', 'description', 'author'],
+                    threshold: 0.2, // Adjust for fuzzy matching
+                    boost: {
+                        nasa_id: 2,
+                        description: 1,
+                        author: 1
+                    }
+                });
+
+                const filteredIds = new Set(results.hits.map(hit => hit.document.nasa_id));
+                const filteredAssets = allAssets.filter(asset => filteredIds.has(asset.nasa_id));
+                
+                renderTable(filteredAssets);
+                searchStats.textContent = `Found ${filteredAssets.length} matching artworks`;
+            });
+        }
+
+        function renderTable(assets) {
+            const tableBody = document.getElementById('table-body');
+            tableBody.innerHTML = '';
+
+            assets.forEach(asset => {
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td class="image-cell" data-label="Preview">
+                        <img class="preview-img" 
+                             src="${asset.github.crop}" 
+                             alt="${asset.description}" 
+                             loading="lazy">
+                    </td>
+                    <td data-label="NASA ID"><a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener"><span class="nasa-id">${asset.nasa_id}</span></a></td>
+                    <td data-label="Description"><div class="description">${asset.description}</div></td>
+                    <td data-label="Artist"><div class="author">${asset.author}</div></td>
+                    <td data-label="Downloads">
+                        <div class="links">
+                            <a href="${asset.github.original}" class="btn btn-original" download="${asset.nasa_id}_original.jpg">Original</a>
+                            <a href="${asset.github.crop}" class="btn btn-crop" download="${asset.nasa_id}_cropped.jpg">Crop</a>
+                        </div>
+                    </td>
+                `;
+                
+                tableBody.appendChild(row);
+            });
+        }
+
         async function loadGallery() {
             try {
                 const response = await fetch('data.json');
-                const data = await response.json();
-                const tableBody = document.getElementById('table-body');
-
-                data.forEach(asset => {
-                    const row = document.createElement('tr');
-                    
-                    row.innerHTML = `
-                        <td class="image-cell" data-label="Preview">
-                            <img class="preview-img" 
-                                 src="${asset.github.crop}" 
-                                 alt="${asset.description}" 
-                                 loading="lazy">
-                        </td>
-                        <td data-label="NASA ID"><a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener"><span class="nasa-id">${asset.nasa_id}</span></a></td>
-                        <td data-label="Description"><div class="description">${asset.description}</div></td>
-                        <td data-label="Artist"><div class="author">${asset.author}</div></td>
-                        <td data-label="Downloads">
-                            <div class="links">
-                                <a href="${asset.github.original}" class="btn btn-original" download="${asset.nasa_id}_original.jpg">Original</a>
-                                <a href="${asset.github.crop}" class="btn btn-crop" download="${asset.nasa_id}_cropped.jpg">Crop</a>
-                            </div>
-                        </td>
-                    `;
-                    
-                    tableBody.appendChild(row);
-                });
+                allAssets = await response.json();
+                
+                renderTable(allAssets);
+                await initSearch(allAssets);
+                
             } catch (error) {
                 console.error('Error loading gallery data:', error);
+                document.getElementById('search-stats').textContent = 'Error loading collection';
             }
         }
 
