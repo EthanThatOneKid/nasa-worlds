@@ -2,6 +2,10 @@
 
 A curated, high-fidelity gallery of 50 historical NASA mission artworks that define the "retro-futurist" aesthetic of early space exploration.
 
+## Inspiration
+
+_NASA Worlds_ was inspired by the striking **retro-futurist** artwork produced during the peak of space exploration. A core motivation for this project was to leverage NASA's **free-use** media to build a high-quality, accessible resource. This collection features 50 artworks **personally curated** to showcase the most iconic and evocative visions of our future among the stars, celebrating the fact that these incredible historical assets are available to everyone to use, remix, and enjoy.
+
 ## Themes
 
 ### Space Colonization Habitat Concepts
@@ -26,4 +30,4 @@ NASA content—images, audio, video, and computer files used in the rendition of
 
 ---
 
-*This collection celebrates the visionaries who illustrated our future among the stars.*
+_This collection celebrates the visionaries who illustrated our future among the stars._
