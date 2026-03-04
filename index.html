@@ -18,28 +18,17 @@
         </header>
 
         <div class="search-container">
-            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-            </svg>
-            <input type="text" id="search-input" class="search-input" placeholder="Search mission art by description, artist, or NASA ID...">
+            <div class="search-input-wrapper">
+                <input type="text" id="search-input" class="search-input" placeholder="Search mission art by description, artist, or NASA ID...">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
             <div id="search-stats" class="search-stats">Loading collection...</div>
         </div>
 
-        <div class="table-wrapper">
-            <table id="asset-table">
-                <thead>
-                    <tr>
-                        <th>Preview</th>
-                        <th>NASA ID</th>
-                        <th>Description</th>
-                        <th>Artist</th>
-                        <th>Downloads</th>
-                    </tr>
-                </thead>
-                <tbody id="table-body">
-                    <!-- Rows will be injected here -->
-                </tbody>
-            </table>
+        <div id="artwork-grid" class="artwork-grid">
+            <!-- Cards will be injected here -->
         </div>
     </div>
 
@@ -70,7 +59,6 @@
                 nasa_id: asset.nasa_id,
                 description: asset.description,
                 author: asset.author,
-                // Store the original index to map back to full data
                 id: asset.nasa_id 
             })));
 
@@ -83,7 +71,7 @@
                 const term = e.target.value.trim();
                 
                 if (!term) {
-                    renderTable(allAssets);
+                    renderGallery(allAssets);
                     searchStats.textContent = `Showing all ${allAssets.length} artworks`;
                     return;
                 }
@@ -91,7 +79,7 @@
                 const results = await search(db, {
                     term: term,
                     properties: ['nasa_id', 'description', 'author'],
-                    threshold: 0.2, // Adjust for fuzzy matching
+                    threshold: 0.2,
                     boost: {
                         nasa_id: 2,
                         description: 1,
@@ -102,37 +90,55 @@
                 const filteredIds = new Set(results.hits.map(hit => hit.document.nasa_id));
                 const filteredAssets = allAssets.filter(asset => filteredIds.has(asset.nasa_id));
                 
-                renderTable(filteredAssets);
+                renderGallery(filteredAssets);
                 searchStats.textContent = `Found ${filteredAssets.length} matching artworks`;
             });
         }
 
-        function renderTable(assets) {
-            const tableBody = document.getElementById('table-body');
-            tableBody.innerHTML = '';
+        function renderGallery(assets) {
+            const grid = document.getElementById('artwork-grid');
+            grid.innerHTML = '';
 
             assets.forEach(asset => {
-                const row = document.createElement('tr');
+                const card = document.createElement('div');
+                card.className = 'artwork-card';
+                card.style.cursor = 'pointer';
                 
-                row.innerHTML = `
-                    <td class="image-cell" data-label="Preview">
-                        <img class="preview-img" 
+                card.innerHTML = `
+                    <div class="card-image-wrapper">
+                        <img class="card-img" 
                              src="${asset.github.crop}" 
                              alt="${asset.description}" 
                              loading="lazy">
-                    </td>
-                    <td data-label="NASA ID"><a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener"><span class="nasa-id">${asset.nasa_id}</span></a></td>
-                    <td data-label="Description"><div class="description">${asset.description}</div></td>
-                    <td data-label="Artist"><div class="author">${asset.author}</div></td>
-                    <td data-label="Downloads">
-                        <div class="links">
-                            <a href="${asset.github.original}" class="btn btn-original" download="${asset.nasa_id}_original.jpg">Original</a>
-                            <a href="${asset.github.crop}" class="btn btn-crop" download="${asset.nasa_id}_cropped.jpg">Crop</a>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-header">
+                            <h3 class="card-title">${asset.description}</h3>
                         </div>
-                    </td>
+                        <div class="card-meta">
+                            <a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener">
+                                <span class="nasa-id">${asset.nasa_id}</span>
+                            </a>
+                            <span class="card-artist">By ${asset.author}</span>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-actions">
+                                <a href="${asset.github.original}" class="btn btn-sm btn-original" download="${asset.nasa_id}_original.jpg">Original</a>
+                                <a href="${asset.github.crop}" class="btn btn-sm btn-crop" download="${asset.nasa_id}_cropped.jpg">Crop</a>
+                            </div>
+                        </div>
+                    </div>
                 `;
+
+                card.addEventListener('click', (e) => {
+                    // Don't navigate if a link or button inside the card was clicked
+                    if (e.target.closest('a') || e.target.closest('button')) {
+                        return;
+                    }
+                    window.open(asset.url, '_blank', 'noopener');
+                });
                 
-                tableBody.appendChild(row);
+                grid.appendChild(card);
             });
         }
 
@@ -141,7 +147,7 @@
                 const response = await fetch('data.json');
                 allAssets = await response.json();
                 
-                renderTable(allAssets);
+                renderGallery(allAssets);
                 await initSearch(allAssets);
                 
             } catch (error) {
