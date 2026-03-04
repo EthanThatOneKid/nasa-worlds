@@ -1,0 +1,602 @@
+[
+  {
+    "nasa_id": "ARC-1975-AC75-1086",
+    "url": "https://images.nasa.gov/details/ARC-1975-AC75-1086",
+    "description": "Interior of Torus wheel (L-5) Space Colonization Module",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086/ARC-1975-AC75-1086~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086/ARC-1975-AC75-1086~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1975-AC75-1086.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1975-AC75-1086.jpg"
+    }
+  },
+  {
+    "nasa_id": "AC76-0628",
+    "url": "https://images.nasa.gov/details/AC76-0628",
+    "description": "Inside the Bernal Sphere space colony; gravity strongest at equator",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/AC76-0628/AC76-0628~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/AC76-0628/AC76-0628~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/AC76-0628.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/AC76-0628.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247-2",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247-2",
+    "description": "Pioneer 10 spacecraft passing the planet Jupiter",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-2/ARC-1973-AC73-4247-2~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-2/ARC-1973-AC73-4247-2~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247-2.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247-2.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1976-AC76-0297",
+    "url": "https://images.nasa.gov/details/ARC-1976-AC76-0297",
+    "description": "Construction of a Space Colony habitat in orbit",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0297/ARC-1976-AC76-0297~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0297/ARC-1976-AC76-0297~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1976-AC76-0297.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1976-AC76-0297.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247-6",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247-6",
+    "description": "Detailed mission art of Pioneer 10 at Jupiter",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-6/ARC-1973-AC73-4247-6~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-6/ARC-1973-AC73-4247-6~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247-6.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247-6.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247",
+    "description": "Pioneer 10 mission concept artwork showing Jupiter encounter",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247/ARC-1973-AC73-4247~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247/ARC-1973-AC73-4247~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247-5",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247-5",
+    "description": "Wide view of Pioneer 10 passing through the Jovian system",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-5/ARC-1973-AC73-4247-5~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-5/ARC-1973-AC73-4247-5~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247-5.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247-5.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-8",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-8",
+    "description": "Artist conception of the rocky, volcanic surface of Venus",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-8/ARC-1977-AC77-0475-8~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-8/ARC-1977-AC77-0475-8~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-8.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-8.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-7",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-7",
+    "description": "Surface of Venus showing atmospheric haze and terrain",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-7/ARC-1977-AC77-0475-7~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-7/ARC-1977-AC77-0475-7~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-7.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-7.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-4",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-4",
+    "description": "Atmospheric rendering of the surface of Venus",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-4/ARC-1977-AC77-0475-4~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-4/ARC-1977-AC77-0475-4~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-4.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-4.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-1",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-1",
+    "description": "Concept art of the Venusian surface under extreme pressure",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-1/ARC-1977-AC77-0475-1~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-1/ARC-1977-AC77-0475-1~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-1.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-1.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1975-AC75-1085",
+    "url": "https://images.nasa.gov/details/ARC-1975-AC75-1085",
+    "description": "Space Colonization modules showing multiple interconnected habitats",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1085/ARC-1975-AC75-1085~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1085/ARC-1975-AC75-1085~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1975-AC75-1085.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1975-AC75-1085.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-3",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-3",
+    "description": "Landscape of Venus depicting harsh environmental conditions",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-3/ARC-1977-AC77-0475-3~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-3/ARC-1977-AC77-0475-3~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-3.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-3.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1972-AC72-1279",
+    "url": "https://images.nasa.gov/details/ARC-1972-AC72-1279",
+    "description": "Solar System artwork depicting multiple planets and orbits",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1279/ARC-1972-AC72-1279~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1279/ARC-1972-AC72-1279~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1972-AC72-1279.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1972-AC72-1279.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1976-AC76-0296",
+    "url": "https://images.nasa.gov/details/ARC-1976-AC76-0296",
+    "description": "Orbital construction of a cylindrical space colony",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0296/ARC-1976-AC76-0296~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0296/ARC-1976-AC76-0296~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1976-AC76-0296.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1976-AC76-0296.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-6",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-6",
+    "description": "Detailed Venusian landscape showing light filtration through clouds",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-6/ARC-1977-AC77-0475-6~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-6/ARC-1977-AC77-0475-6~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-6.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-6.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-2",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-2",
+    "description": "Ground-level view of Venusian terrain",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-2/ARC-1977-AC77-0475-2~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-2/ARC-1977-AC77-0475-2~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-2.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-2.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-5",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-5",
+    "description": "Venus surface artwork for the Pioneer Venus mission",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-5/ARC-1977-AC77-0475-5~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-5/ARC-1977-AC77-0475-5~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-5.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-5.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1978-AC78-0330-2",
+    "url": "https://images.nasa.gov/details/ARC-1978-AC78-0330-2",
+    "description": "Habitat on a Lunar base for long-term colonization",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-2/ARC-1978-AC78-0330-2~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-2/ARC-1978-AC78-0330-2~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1978-AC78-0330-2.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1978-AC78-0330-2.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1972-AC72-1281",
+    "url": "https://images.nasa.gov/details/ARC-1972-AC72-1281",
+    "description": "Pioneer F (10) spacecraft in orbit around Jupiter",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1281/ARC-1972-AC72-1281~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1281/ARC-1972-AC72-1281~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1972-AC72-1281.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1972-AC72-1281.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247-1",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247-1",
+    "description": "Cropped mission art of Pioneer 10 at Jupiter",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-1/ARC-1973-AC73-4247-1~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-1/ARC-1973-AC73-4247-1~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247-1.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247-1.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1978-AC78-0330-3",
+    "url": "https://images.nasa.gov/details/ARC-1978-AC78-0330-3",
+    "description": "Moon base architecture and habitat structures",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-3/ARC-1978-AC78-0330-3~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-3/ARC-1978-AC78-0330-3~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1978-AC78-0330-3.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1978-AC78-0330-3.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247-3",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247-3",
+    "description": "Pioneer 10 passing the Great Red Spot of Jupiter",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-3/ARC-1973-AC73-4247-3~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-3/ARC-1973-AC73-4247-3~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247-3.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247-3.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1978-AC78-0330-1",
+    "url": "https://images.nasa.gov/details/ARC-1978-AC78-0330-1",
+    "description": "Lunar manufacturing and habitat base concept",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-1/ARC-1978-AC78-0330-1~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-1/ARC-1978-AC78-0330-1~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1978-AC78-0330-1.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1978-AC78-0330-1.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1989-AC89-0428",
+    "url": "https://images.nasa.gov/details/ARC-1989-AC89-0428",
+    "description": "Flying Oblique Wing aircraft design concept",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1989-AC89-0428/ARC-1989-AC89-0428~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1989-AC89-0428/ARC-1989-AC89-0428~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1989-AC89-0428.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1989-AC89-0428.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-4247-4",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-4247-4",
+    "description": "Pioneer 10 encounter with Jupiter's atmosphere",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-4/ARC-1973-AC73-4247-4~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-4/ARC-1973-AC73-4247-4~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-4247-4.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-4247-4.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1971-AC71-4036",
+    "url": "https://images.nasa.gov/details/ARC-1971-AC71-4036",
+    "description": "Supersonic Transport (SST) aircraft technology concept",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1971-AC71-4036/ARC-1971-AC71-4036~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1971-AC71-4036/ARC-1971-AC71-4036~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1971-AC71-4036.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1971-AC71-4036.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1976-AC76-1089",
+    "url": "https://images.nasa.gov/details/ARC-1976-AC76-1089",
+    "description": "Exterior view looking into a Bernal Sphere colony",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1089/ARC-1976-AC76-1089~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1089/ARC-1976-AC76-1089~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1976-AC76-1089.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1976-AC76-1089.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1975-AC75-1086-1",
+    "url": "https://images.nasa.gov/details/ARC-1975-AC75-1086-1",
+    "description": "Toroidal Colonies (Torus Wheel) in deep space",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086-1/ARC-1975-AC75-1086-1~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086-1/ARC-1975-AC75-1086-1~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1975-AC75-1086-1.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1975-AC75-1086-1.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1976-AC76-1713",
+    "url": "https://images.nasa.gov/details/ARC-1976-AC76-1713",
+    "description": "Space Shuttle Orbiter re-entry showing thermal tiles",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1713/ARC-1976-AC76-1713~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1713/ARC-1976-AC76-1713~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1976-AC76-1713.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1976-AC76-1713.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1971-A71-5593",
+    "url": "https://images.nasa.gov/details/ARC-1971-A71-5593",
+    "description": "Oblique wing transonic transport model in flight",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1971-A71-5593/ARC-1971-A71-5593~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1971-A71-5593/ARC-1971-A71-5593~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1971-A71-5593.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1971-A71-5593.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1973-AC73-9345",
+    "url": "https://images.nasa.gov/details/ARC-1973-AC73-9345",
+    "description": "Pioneer Jupiter slingshot maneuver to outer planets",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-9345/ARC-1973-AC73-9345~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-9345/ARC-1973-AC73-9345~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1973-AC73-9345.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1973-AC73-9345.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1978-AC78-0330-4",
+    "url": "https://images.nasa.gov/details/ARC-1978-AC78-0330-4",
+    "description": "Closed-loop regenerative life support systems in space",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-4/ARC-1978-AC78-0330-4~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-4/ARC-1978-AC78-0330-4~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1978-AC78-0330-4.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1978-AC78-0330-4.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1978-AC78-0238",
+    "url": "https://images.nasa.gov/details/ARC-1978-AC78-0238",
+    "description": "Pioneer Venus multiprobe approaching the planet",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0238/ARC-1978-AC78-0238~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0238/ARC-1978-AC78-0238~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1978-AC78-0238.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1978-AC78-0238.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1983-AC83-0645",
+    "url": "https://images.nasa.gov/details/ARC-1983-AC83-0645",
+    "description": "Space Life Sciences Payloads Office mural of functions",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1983-AC83-0645/ARC-1983-AC83-0645~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1983-AC83-0645/ARC-1983-AC83-0645~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1983-AC83-0645.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1983-AC83-0645.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1978-A78-0238",
+    "url": "https://images.nasa.gov/details/ARC-1978-A78-0238",
+    "description": "Pioneer Venus orbiter and probes releasing over Venus",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-A78-0238/ARC-1978-A78-0238~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1978-A78-0238/ARC-1978-A78-0238~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1978-A78-0238.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1978-A78-0238.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1976-AC76-1267",
+    "url": "https://images.nasa.gov/details/ARC-1976-AC76-1267",
+    "description": "Interior landscape of the Torus Wheel space settlement",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1267/ARC-1976-AC76-1267~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1267/ARC-1976-AC76-1267~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1976-AC76-1267.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1976-AC76-1267.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1976-AC76-0965",
+    "url": "https://images.nasa.gov/details/ARC-1976-AC76-0965",
+    "description": "Bernal Sphere residential areas and farming \"tires\"",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0965/ARC-1976-AC76-0965~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0965/ARC-1976-AC76-0965~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1976-AC76-0965.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1976-AC76-0965.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1974-AC73-9344",
+    "url": "https://images.nasa.gov/details/ARC-1974-AC73-9344",
+    "description": "Pioneer 10 crossing the hazardous Asteroid Belt",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1974-AC73-9344/ARC-1974-AC73-9344~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1974-AC73-9344/ARC-1974-AC73-9344~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1974-AC73-9344.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1974-AC73-9344.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1988-AC88-0595",
+    "url": "https://images.nasa.gov/details/ARC-1988-AC88-0595",
+    "description": "Cutaway of the Space Infrared Telescope Facility (SIRTF)",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1988-AC88-0595/ARC-1988-AC88-0595~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1988-AC88-0595/ARC-1988-AC88-0595~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1988-AC88-0595.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1988-AC88-0595.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1995-ACD95-0229",
+    "url": "https://images.nasa.gov/details/ARC-1995-ACD95-0229",
+    "description": "Galileo spacecraft releasing its probe toward Jupiter",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0229/ARC-1995-ACD95-0229~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0229/ARC-1995-ACD95-0229~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1995-ACD95-0229.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1995-ACD95-0229.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1995-ACD95-0126",
+    "url": "https://images.nasa.gov/details/ARC-1995-ACD95-0126",
+    "description": "Galileo probe descending into Jupiter's atmosphere",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0126/ARC-1995-ACD95-0126~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0126/ARC-1995-ACD95-0126~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1995-ACD95-0126.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1995-ACD95-0126.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-11",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-11",
+    "description": "Pioneer Venus multiprobe entry into the atmosphere",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-11/ARC-1977-AC77-0475-11~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-11/ARC-1977-AC77-0475-11~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-11.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-11.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1975-AC75-2621",
+    "url": "https://images.nasa.gov/details/ARC-1975-AC75-2621",
+    "description": "Lush interior of a Toroidal space colony with water",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-2621/ARC-1975-AC75-2621~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-2621/ARC-1975-AC75-2621~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1975-AC75-2621.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1975-AC75-2621.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-9",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-9",
+    "description": "Pioneer Venus bus and probes entering entry interface",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-9/ARC-1977-AC77-0475-9~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-9/ARC-1977-AC77-0475-9~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-9.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-9.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1975-AC75-1886",
+    "url": "https://images.nasa.gov/details/ARC-1975-AC75-1886",
+    "description": "Island Three cylindrical colony with suspension bridge",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1886/ARC-1975-AC75-1886~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1886/ARC-1975-AC75-1886~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1975-AC75-1886.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1975-AC75-1886.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-10",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-10",
+    "description": "Pioneer Venus probe glowing from atmospheric friction",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-10/ARC-1977-AC77-0475-10~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-10/ARC-1977-AC77-0475-10~orig.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-10.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-10.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1977-AC77-0475-12",
+    "url": "https://images.nasa.gov/details/ARC-1977-AC77-0475-12",
+    "description": "Final burn-up of the Pioneer Venus bus in the atmosphere",
+    "author": "Don Davis",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-12/ARC-1977-AC77-0475-12~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-12/ARC-1977-AC77-0475-12~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1977-AC77-0475-12.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1977-AC77-0475-12.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1991-AC91-0257",
+    "url": "https://images.nasa.gov/details/ARC-1991-AC91-0257",
+    "description": "Mount Pinatubo volcanic ash cloud from high altitude",
+    "author": "NASA / Ames",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0257/ARC-1991-AC91-0257~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0257/ARC-1991-AC91-0257~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1991-AC91-0257.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1991-AC91-0257.jpg"
+    }
+  },
+  {
+    "nasa_id": "ARC-1991-AC91-0193",
+    "url": "https://images.nasa.gov/details/ARC-1991-AC91-0193",
+    "description": "Atmospheric view of Earth after Pinatubo eruption",
+    "author": "NASA / Ames",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0193/ARC-1991-AC91-0193~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0193/ARC-1991-AC91-0193~large.jpg",
+    "github": {
+      "original": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/original/ARC-1991-AC91-0193.jpg",
+      "crop": "https://github.com/ethanthatonekid/nasa-worlds/raw/main/crop/ARC-1991-AC91-0193.jpg"
+    }
+  }
+]

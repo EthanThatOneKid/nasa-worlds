@@ -20,6 +20,10 @@ Atmospheric concept art of the volcanic surfaces of Venus and industrial Lunar b
 
 The collection preserves the work of legendary NASA illustrators like **Rick Guidice** and **Don Davis**.
 
+## License
+
+NASA content—images, audio, video, and computer files used in the rendition of 3D models, such as XML or OBJ files—generally are not copyrighted. You may use this material for educational or informational purposes, including photo collections, textbooks, public exhibits, computer graphical simulations, and Internet Web pages. For more information, please review the [NASA Media Usage Guidelines](https://www.nasa.gov/multimedia/guidelines/index.html).
+
 ---
 
 *This collection celebrates the visionaries who illustrated our future among the stars.*
