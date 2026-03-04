@@ -38,6 +38,7 @@ h1 {
   font-weight: 800;
   background: linear-gradient(135deg, #fff 0%, #3b82f6 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 1rem;
   letter-spacing: -0.02em;
@@ -111,6 +112,16 @@ tr:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
+.nasa-id-link {
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.nasa-id-link:hover {
+  transform: translateY(-1px);
+}
+
 .nasa-id {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.875rem;
@@ -118,6 +129,13 @@ tr:hover {
   background: rgba(59, 130, 246, 0.1);
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  cursor: pointer;
+}
+
+.nasa-id-link:hover .nasa-id {
+  background: var(--accent-color);
+  color: white;
 }
 
 .description {
@@ -139,7 +157,7 @@ tr:hover {
 .btn {
   padding: 0.5rem 1rem;
   border-radius: 0.75rem;
-  font-size: 0.875rem;
+  font-size: 0.825rem;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -148,23 +166,25 @@ tr:hover {
   gap: 0.5rem;
 }
 
-.btn-nasa {
-  background: rgba(59, 130, 246, 0.1);
-  color: var(--accent-color);
-}
-
-.btn-nasa:hover {
-  background: var(--accent-color);
-  color: white;
-}
-
-.btn-github {
+.btn-original {
   background: rgba(255, 255, 255, 0.05);
   color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.btn-github:hover {
+.btn-original:hover {
   background: rgba(255, 255, 255, 0.15);
+}
+
+.btn-crop {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--accent-color);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.btn-crop:hover {
+  background: var(--accent-color);
+  color: white;
 }
 
 @media (max-width: 768px) {

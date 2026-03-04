@@ -25,7 +25,7 @@
                         <th>NASA ID</th>
                         <th>Description</th>
                         <th>Artist</th>
-                        <th>Explore</th>
+                        <th>Downloads</th>
                     </tr>
                 </thead>
                 <tbody id="table-body">
@@ -52,13 +52,13 @@
                                  alt="${asset.description}" 
                                  loading="lazy">
                         </td>
-                        <td><span class="nasa-id">${asset.nasa_id}</span></td>
+                        <td><a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener"><span class="nasa-id">${asset.nasa_id}</span></a></td>
                         <td><div class="description">${asset.description}</div></td>
                         <td><div class="author">${asset.author}</div></td>
                         <td>
                             <div class="links">
-                                <a href="${asset.url}" class="btn btn-nasa" target="_blank" rel="noopener">NASA</a>
-                                <a href="${asset.github.original}" class="btn btn-github" target="_blank" rel="noopener">Raw</a>
+                                <a href="${asset.github.original}" class="btn btn-original" download="${asset.nasa_id}_original.jpg">Original</a>
+                                <a href="${asset.github.crop}" class="btn btn-crop" download="${asset.nasa_id}_cropped.jpg">Crop</a>
                             </div>
                         </td>
                     `;
