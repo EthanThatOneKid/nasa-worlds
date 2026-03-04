@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Worlds - Historical Artwork Discovery</title>
+    <meta name="description" content="A curated, high-fidelity discovery gallery of 50 historical NASA mission artworks representing the retro-futurist aesthetic.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;800&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NASA Worlds</h1>
+            <p class="subtitle">Exploring the retro-futurist vision of space colonization and planetary exploration through historical NASA mission art.</p>
+        </header>
+
+        <div class="table-wrapper">
+            <table id="asset-table">
+                <thead>
+                    <tr>
+                        <th>Preview</th>
+                        <th>NASA ID</th>
+                        <th>Description</th>
+                        <th>Artist</th>
+                        <th>Explore</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Rows will be injected here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        async function loadGallery() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+                const tableBody = document.getElementById('table-body');
+
+                data.forEach(asset => {
+                    const row = document.createElement('tr');
+                    
+                    row.innerHTML = `
+                        <td class="image-cell">
+                            <img class="preview-img" 
+                                 src="${asset.github.crop}" 
+                                 alt="${asset.description}" 
+                                 loading="lazy">
+                        </td>
+                        <td><span class="nasa-id">${asset.nasa_id}</span></td>
+                        <td><div class="description">${asset.description}</div></td>
+                        <td><div class="author">${asset.author}</div></td>
+                        <td>
+                            <div class="links">
+                                <a href="${asset.url}" class="btn btn-nasa" target="_blank" rel="noopener">NASA</a>
+                                <a href="${asset.github.original}" class="btn btn-github" target="_blank" rel="noopener">Raw</a>
+                            </div>
+                        </td>
+                    `;
+                    
+                    tableBody.appendChild(row);
+                });
+            } catch (error) {
+                console.error('Error loading gallery data:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadGallery);
+    </script>
+</body>
+</html>
