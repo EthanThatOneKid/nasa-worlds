@@ -243,6 +243,48 @@
             searchInput.dispatchEvent(new Event('input'));
         });
 
+        // Toast notification system
+        function showToast(message) {
+            let container = document.getElementById('toast-container');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'toast-container';
+                container.className = 'toast-container';
+                document.body.appendChild(container);
+            }
+
+            // Limit active toasts to prevent screen clutter
+            if (container.children.length >= 3) {
+                const firstToast = container.firstElementChild;
+                if (firstToast) {
+                    firstToast.classList.remove('show');
+                    setTimeout(() => firstToast.remove(), 300);
+                }
+            }
+
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.innerHTML = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>${message}</span>
+            `;
+            container.appendChild(toast);
+
+            // Force reflow before adding the class to trigger CSS transition reliably
+            void toast.offsetHeight;
+            toast.classList.add('show');
+
+            // Set duration before hiding
+            setTimeout(() => {
+                if (!toast.parentElement) return; // in case it was already removed by the limit
+                toast.classList.remove('show');
+                // Use setTimeout to remove from DOM after the 300ms CSS transition finishes, avoiding transitionend bugs
+                setTimeout(() => {
+                    if (toast.parentElement) toast.remove();
+                }, 300);
+            }, 3000);
+        }
+
         // Setup dropdown split button logic
         document.addEventListener('click', async (e) => {
             const copyBtn = e.target.closest('.copy-link-btn');
@@ -254,11 +296,13 @@
                     const textEl = copyBtn.querySelector('.copy-link-text');
                     const originalText = textEl.textContent;
                     textEl.textContent = 'Copied!';
+                    showToast('Copied link to clipboard!');
                     setTimeout(() => {
                         textEl.textContent = originalText;
                     }, 2000);
                 } catch (err) {
                     console.error('Failed to copy', err);
+                    showToast('Failed to copy link');
                 }
                 return;
             }
@@ -273,11 +317,13 @@
                     const textEl = copyHtmlBtn.querySelector('.copy-html-text');
                     const originalText = textEl.textContent;
                     textEl.textContent = 'Copied!';
+                    showToast('Copied HTML snippet to clipboard!');
                     setTimeout(() => {
                         textEl.textContent = originalText;
                     }, 2000);
                 } catch (err) {
                     console.error('Failed to copy', err);
+                    showToast('Failed to copy HTML');
                 }
                 const menu = copyHtmlBtn.closest('.split-btn-menu');
                 if (menu) {
