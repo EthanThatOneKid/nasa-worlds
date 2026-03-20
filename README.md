@@ -4,7 +4,6 @@ A curated, high-fidelity gallery of 50 historical NASA mission artworks that def
 
 **[View Official Site →](https://ethanthatonekid.github.io/nasa-worlds)**
 
-
 ## Inspiration
 
 _NASA Worlds_ was inspired by the striking **retro-futurist** artwork produced during the peak of space exploration. A core motivation for this project was to leverage NASA's **free-use** media to build a high-quality, accessible resource. This collection features 50 artworks **personally curated** to showcase the most iconic and evocative visions of our future among the stars, celebrating the fact that these incredible historical assets are available to everyone to use, remix, and enjoy.
@@ -26,6 +25,22 @@ Atmospheric concept art of the volcanic surfaces of Venus and industrial Lunar b
 ## Historical Artists
 
 The collection preserves the work of legendary NASA illustrators like **Rick Guidice** and **Don Davis**.
+
+## Develop
+
+To host the files and run the project locally, you can use [Deno](https://deno.com/) with the standard library file server from JSR:
+
+```bash
+deno --allow-net --allow-read jsr:@std/http/file-server
+```
+
+### Watch Mode
+
+To automatically restart the server when your files change, you can include the `--watch` flag:
+
+```bash
+deno --allow-net --allow-read --watch jsr:@std/http/file-server
+```
 
 ## License
 

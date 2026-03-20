@@ -1,14 +1,26 @@
 [
   {
+    "nasa_id": "ARC-1975-AC75-1924",
+    "url": "https://images.nasa.gov/details/ARC-1975-AC75-1924",
+    "description": "Artwork Space Colonization - Bernal sphere",
+    "author": "Rick Guidice",
+    "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1924/ARC-1975-AC75-1924~thumb.jpg",
+    "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1924/ARC-1975-AC75-1924~large.jpg",
+    "mirror": {
+      "original": "original/ARC-1975-AC75-1924.jpg",
+      "crop": "crop/ARC-1975-AC75-1924.jpg"
+    }
+  },
+  {
     "nasa_id": "ARC-1975-AC75-1086",
     "url": "https://images.nasa.gov/details/ARC-1975-AC75-1086",
     "description": "Interior of Torus wheel (L-5) Space Colonization Module",
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086/ARC-1975-AC75-1086~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086/ARC-1975-AC75-1086~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1975-AC75-1086.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1975-AC75-1086.jpg"
+    "mirror": {
+      "original": "original/ARC-1975-AC75-1086.jpg",
+      "crop": "crop/ARC-1975-AC75-1086.jpg"
     }
   },
   {
@@ -18,9 +30,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/AC76-0628/AC76-0628~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/AC76-0628/AC76-0628~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/AC76-0628.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/AC76-0628.jpg"
+    "mirror": {
+      "original": "original/AC76-0628.jpg",
+      "crop": "crop/AC76-0628.jpg"
     }
   },
   {
@@ -30,9 +42,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-2/ARC-1973-AC73-4247-2~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-2/ARC-1973-AC73-4247-2~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247-2.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247-2.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247-2.jpg",
+      "crop": "crop/ARC-1973-AC73-4247-2.jpg"
     }
   },
   {
@@ -42,9 +54,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0297/ARC-1976-AC76-0297~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0297/ARC-1976-AC76-0297~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1976-AC76-0297.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1976-AC76-0297.jpg"
+    "mirror": {
+      "original": "original/ARC-1976-AC76-0297.jpg",
+      "crop": "crop/ARC-1976-AC76-0297.jpg"
     }
   },
   {
@@ -54,9 +66,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-6/ARC-1973-AC73-4247-6~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-6/ARC-1973-AC73-4247-6~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247-6.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247-6.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247-6.jpg",
+      "crop": "crop/ARC-1973-AC73-4247-6.jpg"
     }
   },
   {
@@ -66,9 +78,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247/ARC-1973-AC73-4247~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247/ARC-1973-AC73-4247~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247.jpg",
+      "crop": "crop/ARC-1973-AC73-4247.jpg"
     }
   },
   {
@@ -78,9 +90,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-5/ARC-1973-AC73-4247-5~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-5/ARC-1973-AC73-4247-5~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247-5.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247-5.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247-5.jpg",
+      "crop": "crop/ARC-1973-AC73-4247-5.jpg"
     }
   },
   {
@@ -90,9 +102,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-8/ARC-1977-AC77-0475-8~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-8/ARC-1977-AC77-0475-8~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-8.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-8.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-8.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-8.jpg"
     }
   },
   {
@@ -102,9 +114,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-7/ARC-1977-AC77-0475-7~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-7/ARC-1977-AC77-0475-7~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-7.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-7.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-7.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-7.jpg"
     }
   },
   {
@@ -114,9 +126,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-4/ARC-1977-AC77-0475-4~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-4/ARC-1977-AC77-0475-4~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-4.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-4.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-4.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-4.jpg"
     }
   },
   {
@@ -126,9 +138,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-1/ARC-1977-AC77-0475-1~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-1/ARC-1977-AC77-0475-1~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-1.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-1.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-1.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-1.jpg"
     }
   },
   {
@@ -138,9 +150,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1085/ARC-1975-AC75-1085~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1085/ARC-1975-AC75-1085~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1975-AC75-1085.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1975-AC75-1085.jpg"
+    "mirror": {
+      "original": "original/ARC-1975-AC75-1085.jpg",
+      "crop": "crop/ARC-1975-AC75-1085.jpg"
     }
   },
   {
@@ -150,9 +162,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-3/ARC-1977-AC77-0475-3~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-3/ARC-1977-AC77-0475-3~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-3.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-3.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-3.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-3.jpg"
     }
   },
   {
@@ -162,9 +174,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1279/ARC-1972-AC72-1279~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1279/ARC-1972-AC72-1279~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1972-AC72-1279.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1972-AC72-1279.jpg"
+    "mirror": {
+      "original": "original/ARC-1972-AC72-1279.jpg",
+      "crop": "crop/ARC-1972-AC72-1279.jpg"
     }
   },
   {
@@ -174,9 +186,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0296/ARC-1976-AC76-0296~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0296/ARC-1976-AC76-0296~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1976-AC76-0296.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1976-AC76-0296.jpg"
+    "mirror": {
+      "original": "original/ARC-1976-AC76-0296.jpg",
+      "crop": "crop/ARC-1976-AC76-0296.jpg"
     }
   },
   {
@@ -186,9 +198,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-6/ARC-1977-AC77-0475-6~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-6/ARC-1977-AC77-0475-6~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-6.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-6.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-6.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-6.jpg"
     }
   },
   {
@@ -198,9 +210,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-2/ARC-1977-AC77-0475-2~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-2/ARC-1977-AC77-0475-2~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-2.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-2.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-2.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-2.jpg"
     }
   },
   {
@@ -210,9 +222,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-5/ARC-1977-AC77-0475-5~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-5/ARC-1977-AC77-0475-5~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-5.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-5.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-5.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-5.jpg"
     }
   },
   {
@@ -222,9 +234,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-2/ARC-1978-AC78-0330-2~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-2/ARC-1978-AC78-0330-2~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1978-AC78-0330-2.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1978-AC78-0330-2.jpg"
+    "mirror": {
+      "original": "original/ARC-1978-AC78-0330-2.jpg",
+      "crop": "crop/ARC-1978-AC78-0330-2.jpg"
     }
   },
   {
@@ -234,9 +246,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1281/ARC-1972-AC72-1281~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1972-AC72-1281/ARC-1972-AC72-1281~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1972-AC72-1281.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1972-AC72-1281.jpg"
+    "mirror": {
+      "original": "original/ARC-1972-AC72-1281.jpg",
+      "crop": "crop/ARC-1972-AC72-1281.jpg"
     }
   },
   {
@@ -246,9 +258,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-1/ARC-1973-AC73-4247-1~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-1/ARC-1973-AC73-4247-1~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247-1.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247-1.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247-1.jpg",
+      "crop": "crop/ARC-1973-AC73-4247-1.jpg"
     }
   },
   {
@@ -258,9 +270,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-3/ARC-1978-AC78-0330-3~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-3/ARC-1978-AC78-0330-3~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1978-AC78-0330-3.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1978-AC78-0330-3.jpg"
+    "mirror": {
+      "original": "original/ARC-1978-AC78-0330-3.jpg",
+      "crop": "crop/ARC-1978-AC78-0330-3.jpg"
     }
   },
   {
@@ -270,9 +282,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-3/ARC-1973-AC73-4247-3~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-3/ARC-1973-AC73-4247-3~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247-3.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247-3.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247-3.jpg",
+      "crop": "crop/ARC-1973-AC73-4247-3.jpg"
     }
   },
   {
@@ -282,9 +294,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-1/ARC-1978-AC78-0330-1~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-1/ARC-1978-AC78-0330-1~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1978-AC78-0330-1.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1978-AC78-0330-1.jpg"
+    "mirror": {
+      "original": "original/ARC-1978-AC78-0330-1.jpg",
+      "crop": "crop/ARC-1978-AC78-0330-1.jpg"
     }
   },
   {
@@ -294,9 +306,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1989-AC89-0428/ARC-1989-AC89-0428~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1989-AC89-0428/ARC-1989-AC89-0428~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1989-AC89-0428.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1989-AC89-0428.jpg"
+    "mirror": {
+      "original": "original/ARC-1989-AC89-0428.jpg",
+      "crop": "crop/ARC-1989-AC89-0428.jpg"
     }
   },
   {
@@ -306,9 +318,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-4/ARC-1973-AC73-4247-4~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-4247-4/ARC-1973-AC73-4247-4~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-4247-4.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-4247-4.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-4247-4.jpg",
+      "crop": "crop/ARC-1973-AC73-4247-4.jpg"
     }
   },
   {
@@ -318,9 +330,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1971-AC71-4036/ARC-1971-AC71-4036~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1971-AC71-4036/ARC-1971-AC71-4036~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1971-AC71-4036.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1971-AC71-4036.jpg"
+    "mirror": {
+      "original": "original/ARC-1971-AC71-4036.jpg",
+      "crop": "crop/ARC-1971-AC71-4036.jpg"
     }
   },
   {
@@ -330,9 +342,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1089/ARC-1976-AC76-1089~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1089/ARC-1976-AC76-1089~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1976-AC76-1089.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1976-AC76-1089.jpg"
+    "mirror": {
+      "original": "original/ARC-1976-AC76-1089.jpg",
+      "crop": "crop/ARC-1976-AC76-1089.jpg"
     }
   },
   {
@@ -342,9 +354,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086-1/ARC-1975-AC75-1086-1~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1086-1/ARC-1975-AC75-1086-1~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1975-AC75-1086-1.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1975-AC75-1086-1.jpg"
+    "mirror": {
+      "original": "original/ARC-1975-AC75-1086-1.jpg",
+      "crop": "crop/ARC-1975-AC75-1086-1.jpg"
     }
   },
   {
@@ -354,9 +366,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1713/ARC-1976-AC76-1713~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1713/ARC-1976-AC76-1713~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1976-AC76-1713.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1976-AC76-1713.jpg"
+    "mirror": {
+      "original": "original/ARC-1976-AC76-1713.jpg",
+      "crop": "crop/ARC-1976-AC76-1713.jpg"
     }
   },
   {
@@ -366,9 +378,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1971-A71-5593/ARC-1971-A71-5593~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1971-A71-5593/ARC-1971-A71-5593~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1971-A71-5593.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1971-A71-5593.jpg"
+    "mirror": {
+      "original": "original/ARC-1971-A71-5593.jpg",
+      "crop": "crop/ARC-1971-A71-5593.jpg"
     }
   },
   {
@@ -378,9 +390,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1973-AC73-9345/ARC-1973-AC73-9345~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1973-AC73-9345/ARC-1973-AC73-9345~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1973-AC73-9345.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1973-AC73-9345.jpg"
+    "mirror": {
+      "original": "original/ARC-1973-AC73-9345.jpg",
+      "crop": "crop/ARC-1973-AC73-9345.jpg"
     }
   },
   {
@@ -390,9 +402,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-4/ARC-1978-AC78-0330-4~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0330-4/ARC-1978-AC78-0330-4~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1978-AC78-0330-4.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1978-AC78-0330-4.jpg"
+    "mirror": {
+      "original": "original/ARC-1978-AC78-0330-4.jpg",
+      "crop": "crop/ARC-1978-AC78-0330-4.jpg"
     }
   },
   {
@@ -402,9 +414,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0238/ARC-1978-AC78-0238~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1978-AC78-0238/ARC-1978-AC78-0238~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1978-AC78-0238.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1978-AC78-0238.jpg"
+    "mirror": {
+      "original": "original/ARC-1978-AC78-0238.jpg",
+      "crop": "crop/ARC-1978-AC78-0238.jpg"
     }
   },
   {
@@ -414,9 +426,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1983-AC83-0645/ARC-1983-AC83-0645~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1983-AC83-0645/ARC-1983-AC83-0645~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1983-AC83-0645.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1983-AC83-0645.jpg"
+    "mirror": {
+      "original": "original/ARC-1983-AC83-0645.jpg",
+      "crop": "crop/ARC-1983-AC83-0645.jpg"
     }
   },
   {
@@ -426,9 +438,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1978-A78-0238/ARC-1978-A78-0238~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1978-A78-0238/ARC-1978-A78-0238~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1978-A78-0238.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1978-A78-0238.jpg"
+    "mirror": {
+      "original": "original/ARC-1978-A78-0238.jpg",
+      "crop": "crop/ARC-1978-A78-0238.jpg"
     }
   },
   {
@@ -438,9 +450,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1267/ARC-1976-AC76-1267~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-1267/ARC-1976-AC76-1267~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1976-AC76-1267.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1976-AC76-1267.jpg"
+    "mirror": {
+      "original": "original/ARC-1976-AC76-1267.jpg",
+      "crop": "crop/ARC-1976-AC76-1267.jpg"
     }
   },
   {
@@ -450,9 +462,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0965/ARC-1976-AC76-0965~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1976-AC76-0965/ARC-1976-AC76-0965~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1976-AC76-0965.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1976-AC76-0965.jpg"
+    "mirror": {
+      "original": "original/ARC-1976-AC76-0965.jpg",
+      "crop": "crop/ARC-1976-AC76-0965.jpg"
     }
   },
   {
@@ -462,9 +474,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1974-AC73-9344/ARC-1974-AC73-9344~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1974-AC73-9344/ARC-1974-AC73-9344~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1974-AC73-9344.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1974-AC73-9344.jpg"
+    "mirror": {
+      "original": "original/ARC-1974-AC73-9344.jpg",
+      "crop": "crop/ARC-1974-AC73-9344.jpg"
     }
   },
   {
@@ -474,9 +486,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1988-AC88-0595/ARC-1988-AC88-0595~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1988-AC88-0595/ARC-1988-AC88-0595~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1988-AC88-0595.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1988-AC88-0595.jpg"
+    "mirror": {
+      "original": "original/ARC-1988-AC88-0595.jpg",
+      "crop": "crop/ARC-1988-AC88-0595.jpg"
     }
   },
   {
@@ -486,9 +498,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0229/ARC-1995-ACD95-0229~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0229/ARC-1995-ACD95-0229~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1995-ACD95-0229.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1995-ACD95-0229.jpg"
+    "mirror": {
+      "original": "original/ARC-1995-ACD95-0229.jpg",
+      "crop": "crop/ARC-1995-ACD95-0229.jpg"
     }
   },
   {
@@ -498,9 +510,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0126/ARC-1995-ACD95-0126~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1995-ACD95-0126/ARC-1995-ACD95-0126~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1995-ACD95-0126.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1995-ACD95-0126.jpg"
+    "mirror": {
+      "original": "original/ARC-1995-ACD95-0126.jpg",
+      "crop": "crop/ARC-1995-ACD95-0126.jpg"
     }
   },
   {
@@ -510,9 +522,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-11/ARC-1977-AC77-0475-11~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-11/ARC-1977-AC77-0475-11~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-11.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-11.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-11.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-11.jpg"
     }
   },
   {
@@ -522,9 +534,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-2621/ARC-1975-AC75-2621~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-2621/ARC-1975-AC75-2621~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1975-AC75-2621.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1975-AC75-2621.jpg"
+    "mirror": {
+      "original": "original/ARC-1975-AC75-2621.jpg",
+      "crop": "crop/ARC-1975-AC75-2621.jpg"
     }
   },
   {
@@ -534,9 +546,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-9/ARC-1977-AC77-0475-9~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-9/ARC-1977-AC77-0475-9~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-9.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-9.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-9.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-9.jpg"
     }
   },
   {
@@ -546,9 +558,9 @@
     "author": "Rick Guidice",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1886/ARC-1975-AC75-1886~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1975-AC75-1886/ARC-1975-AC75-1886~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1975-AC75-1886.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1975-AC75-1886.jpg"
+    "mirror": {
+      "original": "original/ARC-1975-AC75-1886.jpg",
+      "crop": "crop/ARC-1975-AC75-1886.jpg"
     }
   },
   {
@@ -558,9 +570,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-10/ARC-1977-AC77-0475-10~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-10/ARC-1977-AC77-0475-10~orig.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-10.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-10.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-10.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-10.jpg"
     }
   },
   {
@@ -570,9 +582,9 @@
     "author": "Don Davis",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-12/ARC-1977-AC77-0475-12~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1977-AC77-0475-12/ARC-1977-AC77-0475-12~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1977-AC77-0475-12.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1977-AC77-0475-12.jpg"
+    "mirror": {
+      "original": "original/ARC-1977-AC77-0475-12.jpg",
+      "crop": "crop/ARC-1977-AC77-0475-12.jpg"
     }
   },
   {
@@ -582,9 +594,9 @@
     "author": "NASA / Ames",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0257/ARC-1991-AC91-0257~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0257/ARC-1991-AC91-0257~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1991-AC91-0257.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1991-AC91-0257.jpg"
+    "mirror": {
+      "original": "original/ARC-1991-AC91-0257.jpg",
+      "crop": "crop/ARC-1991-AC91-0257.jpg"
     }
   },
   {
@@ -594,9 +606,9 @@
     "author": "NASA / Ames",
     "thumbnail": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0193/ARC-1991-AC91-0193~thumb.jpg",
     "image": "http://images-assets.nasa.gov/image/ARC-1991-AC91-0193/ARC-1991-AC91-0193~large.jpg",
-    "github": {
-      "original": "https://ethanthatonekid.github.io/nasa-worlds/original/ARC-1991-AC91-0193.jpg",
-      "crop": "https://ethanthatonekid.github.io/nasa-worlds/crop/ARC-1991-AC91-0193.jpg"
+    "mirror": {
+      "original": "original/ARC-1991-AC91-0193.jpg",
+      "crop": "crop/ARC-1991-AC91-0193.jpg"
     }
   }
 ]
