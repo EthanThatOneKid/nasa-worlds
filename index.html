@@ -166,42 +166,27 @@
                         <div class="card-header">
                             <h3 class="card-title">${asset.description}</h3>
                         </div>
-                        <div class="card-meta">
-                            <span class="card-artist">By ${asset.author}</span>
-                        </div>
                         <div class="card-footer">
-                            <div class="card-actions">
-                                <div class="split-btn">
-                                    <a href="${assetUrl}" class="btn split-btn-main" target="_blank" rel="noopener">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                                        Open image
-                                    </a>
-                                    <div class="split-btn-dropdown-container">
-                                        <button type="button" class="btn split-btn-trigger" aria-haspopup="true" aria-expanded="false" title="More options">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                                        </button>
-                                        <div class="split-btn-menu">
-                                            <button type="button" class="split-btn-menu-item copy-link-btn" data-url="${new URL(assetUrl, window.location.href).href}">
-                                                <div class="split-btn-menu-title">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                                                    <span class="copy-link-text">Copy link</span>
-                                                </div>
-                                                <div class="split-btn-menu-desc">Copy ${assetLabel.toLowerCase()} URL</div>
-                                            </button>
-                                            <button type="button" class="split-btn-menu-item copy-html-btn" data-url="${new URL(assetUrl, window.location.href).href}" data-alt="${asset.description.replace(/"/g, '&quot;')}">
-                                                <div class="split-btn-menu-title">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-                                                    <span class="copy-html-text">Copy HTML</span>
-                                                </div>
-                                                <div class="split-btn-menu-desc">Copy &lt;img&gt; tag</div>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="card-footer-top">
+                                <span class="card-artist">By ${asset.author}</span>
+                                <a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener" title="View on NASA.gov">
+                                    <span class="nasa-id">${asset.nasa_id}</span>
+                                </a>
                             </div>
-                            <a href="${asset.url}" class="nasa-id-link" target="_blank" rel="noopener" title="View on NASA.gov">
-                                <span class="nasa-id">${asset.nasa_id}</span>
-                            </a>
+                            <div class="card-actions">
+                                <button type="button" class="btn action-btn copy-html-btn" title="Copy built-in image HTML tag" data-url="${new URL(assetUrl, window.location.href).href}" data-alt="${asset.description.replace(/"/g, '&quot;')}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                                    <span>HTML</span>
+                                </button>
+                                <button type="button" class="btn action-btn copy-link-btn" title="Copy raw image URL" data-url="${new URL(assetUrl, window.location.href).href}">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                                    <span>Link</span>
+                                </button>
+                                <a href="${assetUrl}" class="btn action-btn" target="_blank" rel="noopener" title="Open image in new tab">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                                    <span>Open</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 `;
@@ -285,7 +270,7 @@
             }, 3000);
         }
 
-        // Setup dropdown split button logic
+        // Setup click handlers for buttons
         document.addEventListener('click', async (e) => {
             const copyBtn = e.target.closest('.copy-link-btn');
             if (copyBtn) {
@@ -293,13 +278,18 @@
                 e.stopPropagation();
                 try {
                     await navigator.clipboard.writeText(copyBtn.dataset.url);
-                    const textEl = copyBtn.querySelector('.copy-link-text');
-                    const originalText = textEl.textContent;
-                    textEl.textContent = 'Copied!';
+                    
+                    // Simple inline feedback
+                    const spanEl = copyBtn.querySelector('span');
+                    if (spanEl) {
+                        const originalText = spanEl.textContent;
+                        spanEl.textContent = 'Copied!';
+                        setTimeout(() => {
+                            if (spanEl) spanEl.textContent = originalText;
+                        }, 2000);
+                    }
+                    
                     showToast('Copied link to clipboard!');
-                    setTimeout(() => {
-                        textEl.textContent = originalText;
-                    }, 2000);
                 } catch (err) {
                     console.error('Failed to copy', err);
                     showToast('Failed to copy link');
@@ -314,56 +304,20 @@
                 try {
                     const imgHtml = `<img src="${copyHtmlBtn.dataset.url}" alt="${copyHtmlBtn.dataset.alt}" loading="lazy">`;
                     await navigator.clipboard.writeText(imgHtml);
-                    const textEl = copyHtmlBtn.querySelector('.copy-html-text');
-                    const originalText = textEl.textContent;
-                    textEl.textContent = 'Copied!';
+                    
+                    const spanEl = copyHtmlBtn.querySelector('span');
+                    if (spanEl) {
+                        const originalText = spanEl.textContent;
+                        spanEl.textContent = 'Copied!';
+                        setTimeout(() => {
+                            if (spanEl) spanEl.textContent = originalText;
+                        }, 2000);
+                    }
+                    
                     showToast('Copied HTML snippet to clipboard!');
-                    setTimeout(() => {
-                        textEl.textContent = originalText;
-                    }, 2000);
                 } catch (err) {
                     console.error('Failed to copy', err);
                     showToast('Failed to copy HTML');
-                }
-                const menu = copyHtmlBtn.closest('.split-btn-menu');
-                if (menu) {
-                    menu.classList.remove('show');
-                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
-                }
-                return;
-            }
-
-            const trigger = e.target.closest('.split-btn-trigger');
-            
-            // Close menus when clicking outside
-            if (!trigger && !e.target.closest('.split-btn-menu')) {
-                document.querySelectorAll('.split-btn-menu.show').forEach(m => {
-                    m.classList.remove('show');
-                    m.previousElementSibling.setAttribute('aria-expanded', 'false');
-                });
-            }
-            
-            if (trigger) {
-                e.preventDefault();
-                e.stopPropagation();
-                
-                const menu = trigger.nextElementSibling;
-                const isExpanded = menu.classList.contains('show');
-                
-                // Close all others
-                document.querySelectorAll('.split-btn-menu.show').forEach(m => {
-                    if (m !== menu) {
-                        m.classList.remove('show');
-                        m.previousElementSibling.setAttribute('aria-expanded', 'false');
-                    }
-                });
-                
-                if (!isExpanded) {
-                    menu.classList.add('show');
-                    trigger.setAttribute('aria-expanded', 'true');
-                } else {
-                    menu.classList.remove('show');
-                    trigger.setAttribute('aria-expanded', 'false');
                 }
             }
         });
